@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="hinh tron"/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-02 08:37:08 PM"/>
+        <attribute name="created" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjQtMDktMjY7MDM6NTE6MzMgUE07MjUyMQ=="/>
+        <attribute name="edited" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjQtMDktMjY7MDQ6MDA6MTMgUE07MTsyNjIy"/>
+        <attribute name="edited" value="UHJlY2lzaW9uIDM1NjE7REVTS1RPUC1JRlZRSE9MOzIwMjQtMTAtMDI7MDg6Mzc6MDggUE07MTszNjg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="radius" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the radius:&quot;" newline="True"/>
+            <input variable="radius"/>
+            <assign variable="area" expression="3.14159 * radius^2"/>
+            <output expression="area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
